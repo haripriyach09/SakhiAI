@@ -1,0 +1,36 @@
+SakhiAI Menstrual Phase LSTM Results
+==================================================
+
+Sequence length: 7
+Features: 16
+
+Training sequences: 3610
+Validation sequences: 793
+Test sequences: 883
+
+Metrics
+------------------------------
+Test Loss: 1.2445
+Test Accuracy: 0.5074
+Weighted F1: 0.5044
+Macro F1: 0.4912
+
+Classification Report
+------------------------------
+              precision    recall  f1-score   support
+
+   Menstrual     0.3702    0.6170    0.4628       141
+  Follicular     0.4898    0.3200    0.3871       225
+   Fertility     0.5444    0.4925    0.5172       199
+      Luteal     0.5950    0.6006    0.5978       318
+
+    accuracy                         0.5074       883
+   macro avg     0.4999    0.5075    0.4912       883
+weighted avg     0.5209    0.5074    0.5044       883
+
+Confusion Matrix
+------------------------------
+[[ 87  16  10  28]
+ [ 64  72  39  50]
+ [ 18  31  98  52]
+ [ 66  28  33 191]]

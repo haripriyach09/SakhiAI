@@ -1,0 +1,56 @@
+﻿# Python environment and cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Frontend generated files
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Local databases and database exports
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.dump
+
+# Local AI indexes and generated vector stores
+vector_store/
+chroma_db/
+faiss_index/
+*.index
+
+# Editor and operating system files
+.vscode/
+.idea/
+
+# Local password administration script
+/backend/set_doctor_password.py
+
+# Local research datasets and participant-level predictions
+/ai_research/data/raw/
+/ai_research/data/processed/
+/ai_research/results/*predictions.csv
+
+# Local Git history backup
+/SakhiAI-frontend-history.bundle

@@ -1,0 +1,58 @@
+{
+  "model": "LSTM 7-day hormone_informed",
+  "sequence_length": 7,
+  "features": [
+    "lh",
+    "estrogen",
+    "pdg",
+    "overall_score",
+    "deep_sleep_in_minutes",
+    "resting_hr_daily",
+    "restlessness",
+    "stress_score",
+    "exerciselevel",
+    "moodswing",
+    "fatigue",
+    "cramps",
+    "headaches",
+    "sleepissue",
+    "foodcravings",
+    "bloating"
+  ],
+  "train_sequences": 3568,
+  "validation_sequences": 784,
+  "test_sequences": 872,
+  "accuracy": 0.48853211009174313,
+  "macro_f1": 0.47730283455941364,
+  "weighted_f1": 0.48924760800143857,
+  "confusion_matrix": [
+    [
+      72,
+      23,
+      20,
+      25
+    ],
+    [
+      36,
+      99,
+      44,
+      40
+    ],
+    [
+      7,
+      47,
+      76,
+      69
+    ],
+    [
+      42,
+      23,
+      70,
+      179
+    ]
+  ],
+  "mean_confidence": 0.5390350818634033,
+  "median_confidence": 0.5083432793617249,
+  "min_confidence": 0.2657114863395691,
+  "max_confidence": 0.95228111743927
+}

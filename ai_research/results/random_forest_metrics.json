@@ -1,0 +1,123 @@
+{
+  "model": "Random Forest",
+  "features": [
+    "lh",
+    "estrogen",
+    "pdg",
+    "overall_score",
+    "deep_sleep_in_minutes",
+    "resting_hr_daily",
+    "restlessness",
+    "stress_score",
+    "exerciselevel",
+    "moodswing",
+    "fatigue",
+    "cramps",
+    "headaches",
+    "sleepissue",
+    "foodcravings",
+    "bloating"
+  ],
+  "best_parameters": {
+    "max_depth": 12,
+    "max_features": "sqrt",
+    "min_samples_leaf": 3,
+    "n_estimators": 200
+  },
+  "cv_macro_f1": 0.42523157223014385,
+  "test_accuracy": 0.4267650158061117,
+  "test_macro_f1": 0.4095373353264452,
+  "test_weighted_f1": 0.43120142523998356,
+  "confusion_matrix": [
+    [
+      67,
+      41,
+      13,
+      31
+    ],
+    [
+      75,
+      91,
+      19,
+      64
+    ],
+    [
+      29,
+      46,
+      65,
+      62
+    ],
+    [
+      89,
+      47,
+      28,
+      182
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "lh",
+      "importance": 0.19092096621185356
+    },
+    {
+      "feature": "estrogen",
+      "importance": 0.16006118419984858
+    },
+    {
+      "feature": "resting_hr_daily",
+      "importance": 0.09861623263978353
+    },
+    {
+      "feature": "pdg",
+      "importance": 0.08629876427628519
+    },
+    {
+      "feature": "restlessness",
+      "importance": 0.07680407394794674
+    },
+    {
+      "feature": "cramps",
+      "importance": 0.06507840004280552
+    },
+    {
+      "feature": "deep_sleep_in_minutes",
+      "importance": 0.0628632265039532
+    },
+    {
+      "feature": "overall_score",
+      "importance": 0.05710139073531456
+    },
+    {
+      "feature": "stress_score",
+      "importance": 0.055676531872629616
+    },
+    {
+      "feature": "bloating",
+      "importance": 0.02722519880384095
+    },
+    {
+      "feature": "fatigue",
+      "importance": 0.020852291277393867
+    },
+    {
+      "feature": "foodcravings",
+      "importance": 0.020784831498954427
+    },
+    {
+      "feature": "sleepissue",
+      "importance": 0.0199120264208473
+    },
+    {
+      "feature": "headaches",
+      "importance": 0.019894604536932477
+    },
+    {
+      "feature": "exerciselevel",
+      "importance": 0.019273027584179033
+    },
+    {
+      "feature": "moodswing",
+      "importance": 0.018637249447431545
+    }
+  ]
+}

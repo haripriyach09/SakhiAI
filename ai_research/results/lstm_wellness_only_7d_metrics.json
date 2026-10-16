@@ -1,0 +1,55 @@
+{
+  "model": "LSTM 7-day wellness_only",
+  "sequence_length": 7,
+  "features": [
+    "overall_score",
+    "deep_sleep_in_minutes",
+    "resting_hr_daily",
+    "restlessness",
+    "stress_score",
+    "exerciselevel",
+    "moodswing",
+    "fatigue",
+    "cramps",
+    "headaches",
+    "sleepissue",
+    "foodcravings",
+    "bloating"
+  ],
+  "train_sequences": 3568,
+  "validation_sequences": 784,
+  "test_sequences": 872,
+  "accuracy": 0.30045871559633025,
+  "macro_f1": 0.30016946131900274,
+  "weighted_f1": 0.2843047899782759,
+  "confusion_matrix": [
+    [
+      60,
+      37,
+      34,
+      9
+    ],
+    [
+      56,
+      79,
+      63,
+      21
+    ],
+    [
+      27,
+      50,
+      83,
+      39
+    ],
+    [
+      73,
+      59,
+      142,
+      40
+    ]
+  ],
+  "mean_confidence": 0.4295651912689209,
+  "median_confidence": 0.4010506868362427,
+  "min_confidence": 0.25321319699287415,
+  "max_confidence": 0.9714834690093994
+}

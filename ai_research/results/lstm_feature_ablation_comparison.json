@@ -1,0 +1,14 @@
+[
+  {
+    "model":"Hormone-informed LSTM",
+    "accuracy":0.4885321101,
+    "macro_f1":0.4773028346,
+    "weighted_f1":0.489247608
+  },
+  {
+    "model":"Wellness-only LSTM",
+    "accuracy":0.3004587156,
+    "macro_f1":0.3001694613,
+    "weighted_f1":0.28430479
+  }
+]

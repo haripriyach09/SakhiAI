@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fff8fb;
+  --foreground: #332532;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media print {
+  body,
+  .print-report {
+    background: #fff !important;
+    color: #241d24 !important;
+    font-family:
+      Arial,
+      "Noto Sans Kannada",
+      "Noto Sans Devanagari",
+      "Nirmala UI",
+      sans-serif;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .print-report {
+    min-height: 0 !important;
+    padding: 0 !important;
+  }
+
+  .print-report section,
+  .print-report article {
+    break-inside: avoid;
+    box-shadow: none !important;
+  }
+
+  .print-report table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .print-report thead {
+    display: table-header-group;
+  }
+
+  .print-report-logo {
+    width: 10rem !important;
+  }
+
+}

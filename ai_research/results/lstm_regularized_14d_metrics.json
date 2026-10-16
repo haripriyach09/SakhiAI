@@ -1,0 +1,45 @@
+{
+    "sequence_length": 14,
+    "features": [
+        "lh",
+        "estrogen",
+        "pdg",
+        "overall_score",
+        "deep_sleep_in_minutes",
+        "resting_hr_daily",
+        "restlessness",
+        "stress_score",
+        "exerciselevel",
+        "moodswing",
+        "fatigue",
+        "cramps",
+        "headaches",
+        "sleepissue",
+        "foodcravings",
+        "bloating"
+    ],
+    "validation": {
+        "loss": 1.2608776092529297,
+        "accuracy": 0.4188627004623413,
+        "macro_f1": 0.39228854542695707,
+        "weighted_f1": 0.38137824937314757
+    },
+    "test": {
+        "loss": 1.3312989473342896,
+        "accuracy": 0.38616353273391724,
+        "macro_f1": 0.3700359081920957,
+        "weighted_f1": 0.38898448803450025
+    },
+    "confidence": {
+        "mean": 0.39311492443084717,
+        "median": 0.36610934138298035,
+        "minimum": 0.2567892074584961,
+        "maximum": 0.6553111672401428
+    },
+    "class_weights": {
+        "0": 1.2849293563579278,
+        "1": 1.116643929058663,
+        "2": 1.0971849865951742,
+        "3": 0.7068221070811744
+    }
+}
